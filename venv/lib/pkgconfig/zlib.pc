@@ -1,0 +1,13 @@
+prefix=/Users/shivamdubey/Desktop/mlprojects/venv
+exec_prefix=/Users/shivamdubey/Desktop/mlprojects/venv
+libdir=/Users/shivamdubey/Desktop/mlprojects/venv/lib
+sharedlibdir=/Users/shivamdubey/Desktop/mlprojects/venv/lib
+includedir=/Users/shivamdubey/Desktop/mlprojects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
