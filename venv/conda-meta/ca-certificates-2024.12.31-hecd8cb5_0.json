@@ -40,7 +40,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "ca-certificates",
   "sha256": "86b49aea07afc55bcc86990b1ff81313649cd182317d131dad270faec9a2679e",
   "size": 132331,
   "subdir": "osx-64",

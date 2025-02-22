@@ -4311,7 +4311,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "tk",
   "sha256": "f1580c0ab59537e4e0efcc6c91ced6ba3abc6225c2f8f575a2f514ae98202238",
   "size": 3530891,
   "subdir": "osx-64",
