@@ -2,7 +2,6 @@ import os
 import sys
 from dataclasses import dataclass
 
-
 from sklearn.ensemble import (
     AdaBoostRegressor,
     GradientBoostingRegressor,
@@ -12,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
-# from xgboost import XGBRegressor
+from xgboost import XGBRegressor
 
 from src.exception import CustomException
 from src.logger import logging
@@ -42,7 +41,7 @@ class ModelTrainer:
                 "Decision Tree": DecisionTreeRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
-                # "XGBRegressor": XGBRegressor(),
+                "XGBRegressor": XGBRegressor(),
                 "AdaBoost Regressor": AdaBoostRegressor(),
             }
             params={
